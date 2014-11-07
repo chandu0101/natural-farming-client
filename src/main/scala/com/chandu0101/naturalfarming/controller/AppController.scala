@@ -1,4 +1,4 @@
-package com.chandu0101.naturalforming.controller
+package com.chandu0101.naturalfarming.controller
 
 import com.greencatsoft.angularjs.Controller
 import com.greencatsoft.angularjs.core.Scope

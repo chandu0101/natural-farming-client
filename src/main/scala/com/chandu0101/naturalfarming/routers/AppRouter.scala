@@ -1,4 +1,4 @@
-package com.chandu0101.naturalforming.routers
+package com.chandu0101.naturalfarming.routers
 
 import com.greencatsoft.angularjs.core.{Route, RouteProvider}
 import com.greencatsoft.angularjs.{inject, Config}
