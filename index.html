@@ -1,0 +1,47 @@
+<html lang="en"  ng-app="natural-farming" data-framework="angularjs">
+<head>
+ <meta charset="utf-8">
+ <style media="screen" type="text/css">
+  .ng-hide,
+  .ng-show {
+   display: none !important;
+  }
+
+  [ng\:cloak], [ng-cloak], .ng-cloak {
+   display: none !important;
+  }
+
+  .auto-gen-code-snippet {
+   display: none;
+  }
+  .auto-gen-code-visible {
+   display: block;
+  }
+ </style>
+
+ <!-- Page styles -->
+ <link rel="stylesheet" href="styles/bootstrap_flatly.min.css">
+ <link rel="stylesheet" href="styles/app.css">
+ <script type="text/javascript" src="target/scala-2.11/natural-farming-jsdeps.js"></script>
+ <!--<link rel="stylesheet" href="css/bootstrap_flatly.min.css">-->
+</head>
+<body ng-controller="appctrl">
+  <nav>
+   <div class="navbar navbar-inverse">
+    <div class="navbar-header">
+     <a class="navbar-brand" href="#/">Natural Farming</a>
+     <a class="navbar-brand" href="#/seeds">Seeds</a>
+     <a class="navbar-brand" href="#/about">About</a>
+    </div>
+   </div>
+  </nav>
+
+  <main class="container">
+   <ng-view></ng-view>
+  </main>
+
+ <script src="target/scala-2.11/natural-farming-fastopt.js"></script>
+<script src="target/scala-2.11/natural-farming-launcher.js"></script>
+
+</body>
+</html>
