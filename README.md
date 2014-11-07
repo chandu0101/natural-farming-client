@@ -1,4 +1,4 @@
 natural-farming-client
 ======================
 
-A website regarding natural farming.
+A website regarding natural farming .
