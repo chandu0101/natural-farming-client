@@ -15,6 +15,8 @@ persistLauncher in Test := false
 
 
 libraryDependencies ++= Seq("com.greencatsoft" %%% "scalajs-angular" % "0.2",
+  "com.github.benhutchison" %%% "prickle" % "1.1.0",
+  "com.lihaoyi" %% "utest" % "0.2.4",
   "com.github.japgolly.scalajs-react" %%% "core" % "0.5.1")
 
 // React itself
